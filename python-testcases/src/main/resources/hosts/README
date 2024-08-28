@@ -1,0 +1,41 @@
+######################################################################
+STORY 54
+######################################################################
+
+Note: Some of the invalid scenarios in test_04_n_invalid_scenarios are
+      now covered in a core AT as they test core functionality.
+GERRIT LINK: https://gerrit.ericsson.se/#/c/4325676/
+
+-----------------------------------------------------------------------
+
+TEST: test_03_n_conflicting_ips_cli
+
+DESCRIPTION: Test try to creates a aliases with Duplicate name
+
+REASON OBSOLETED: Test converted to AT test_03_n_conflicting_ips_cli.at in hosts.
+
+GERRIT LINK: https://gerrit.ericsson.se/#/c/3729995/
+
+-----------------------------------------------------------------------
+
+TEST: test_07_p_create_alias_at_node_level
+
+DESCRIPTION: Test creates node-level alias and removes it.
+
+REASON OBSOLETED: Test merged with test_08_p_create_two_node_level_aliases.
+
+GERRIT LINK: https://gerrit.ericsson.se/#/c/4336667/
+
+-----------------------------------------------------------------------
+
+TEST: test_04_n_invalid_scenarios
+
+DESCRIPTION: Test creates alias with invalid scenarios and loads at invalid place in the model.
+
+REASON OBSOLETED: Test cases now covered by ATs found:
+                  ERIClitphosts/ats/testset_story54/test_04_n_invalid_scenarios.at
+
+GERRIT LINK: https://gerrit.ericsson.se/#/c/5517982/
+
+-----------------------------------------------------------------------
+
